@@ -1,0 +1,21 @@
+This project will involve multiple components:
+
+Web Scraping: Using BeautifulSoup to scrape data.
+Database: Using SQLite to store the scraped data.
+Web Framework: Using Flask to create a web interface to display the data.
+
+web_scraper_project/
+│
+├── app.py
+├── scraper.py
+├── templates/
+│   └── index.html
+├── requirements.txt
+└── database.db
+
+#Environment
+
+Flask==2.0.1
+requests==2.25.1
+beautifulsoup4==4.9.3
+sqlite3
